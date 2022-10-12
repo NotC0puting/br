@@ -81,7 +81,8 @@ nav {
   height: 750px;
   border-radius: 50%;
   position: absolute;
-  background-color: transparent;
+  background-color: #111;
+  color: white;
 }
 
 .sliderImg {
