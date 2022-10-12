@@ -103,7 +103,7 @@ nav {
 .sliderPrice {
   position: absolute;
   top: 40%;
-  left: 20%;
+  left: 29%;
   font-size: 60px;
   font-weight: 300;
   text-align: center;
@@ -115,7 +115,7 @@ nav {
 .buyButton {
   position: absolute;
   top: 48%;
-  right: 170%;
+  right: 28%;
   font-size: 30px;
   font-weight: 900;
   color: purple;
@@ -147,7 +147,7 @@ nav {
 }
 
 .sliderItem:nth-child(1) .sliderPrice {
-  color: white;
+  color: purple;
 }
 .sliderItem:nth-child(2) .sliderPrice {
   color: white;
