@@ -49,6 +49,21 @@ nav {
   justify-content: center;
 }
 
+#responsive-menu {
+  display: none;
+  width: 48px;
+  height: 48px;
+}
+
+@media screen and (max-width: 758px){
+ {
+    margin: 0;
+ }
+  #responsive-menu{
+    display: inline-block;
+    
+  }
+}
 .menuItem {
   margin-right: 50px;
   cursor: pointer;
