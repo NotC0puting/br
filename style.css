@@ -91,6 +91,7 @@ nav {
     display: block;
     height: 40px;
     width: 100%;
+    background-color: #404040
     color: #FFFFFF;
     cursor: pointer;
   }
