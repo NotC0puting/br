@@ -81,6 +81,15 @@ nav {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 690px;) {
+  .trip-menu {
+    display: flex;
+  }
+  
+  .navBottom {
+    display: none;
+  }
+}
 .sliderWrapper {
   display: flex;
   width: 500vw;
