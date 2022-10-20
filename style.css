@@ -59,7 +59,7 @@ nav {
 }
 
 .navBottom {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   
@@ -68,7 +68,7 @@ nav {
 .menuItem {
   margin-right: 50px;
   cursor: pointer;
-  color: black;
+  color: white;
   font-weight: 400;
 }
 
