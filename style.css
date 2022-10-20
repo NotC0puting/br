@@ -83,7 +83,7 @@ nav {
 
 @media only screen and (max-width: 690px;) {
   .trip-menu {
-    display: flex;
+    display: block;
   }
   
   .navBottom {
