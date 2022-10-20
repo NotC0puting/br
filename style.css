@@ -45,7 +45,7 @@ nav {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: none;
 }
 
 .searchInput::placeholder {
@@ -59,15 +59,16 @@ nav {
 }
 
 .navBottom {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
+  
 }
 
 .menuItem {
   margin-right: 50px;
   cursor: pointer;
-  color: lightgray;
+  color: black;
   font-weight: 400;
 }
 
