@@ -44,6 +44,9 @@ nav {
   z-index: 1;
 }
 
+.trip-menu {
+  display: none;
+}
 .dropdown:hover .dropdown-content {
   display: none;
 }
