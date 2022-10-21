@@ -84,6 +84,9 @@ nav {
 
 @media only screen and (max-width: 703px) {
   
+  .dropdown:hover .dropdown-content {
+  display: block;
+  }
   .dropdown-content {
   display: flex; 
   }
