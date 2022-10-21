@@ -53,7 +53,7 @@ nav {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: none;
 }
 
 .searchInput::placeholder {
@@ -89,10 +89,10 @@ nav {
 @media only screen and (max-width: 703px) {
   
   .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
   }
   .dropdown-content {
-  display: flex; 
+    display: flex; 
   }
   .trip-menu {
     display: block;
