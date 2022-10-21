@@ -81,6 +81,10 @@ nav {
 }
 
 @media only screen and (max-width: 703px) {
+  
+  .dropdown-content {
+  display: flex; 
+  }
   .trip-menu {
     display: block;
   }
