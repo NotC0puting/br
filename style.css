@@ -49,7 +49,7 @@ nav {
   display: none;
 }
 .dropdown:hover .dropdown-content {
-  display: none;
+  display: block;
 }
 
 .searchInput::placeholder {
