@@ -58,7 +58,7 @@ nav {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: none;
 }
 
 .dropdown-content {
@@ -94,6 +94,10 @@ nav {
     display: block;
   }
   
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  }
   .dropdown:hover .dropdown-content {
     display: block;
   }
