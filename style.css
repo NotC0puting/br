@@ -73,6 +73,7 @@ nav {
     display: block;  
   }
 .navBottom {
+    display: none;
     flex-direction: column;
   }
 }
