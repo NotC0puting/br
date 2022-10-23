@@ -44,7 +44,7 @@ nav {
 }
 
 .navBottom {
-  display: block;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   
