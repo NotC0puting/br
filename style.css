@@ -76,6 +76,10 @@ nav {
     display: none;
     flex-direction: column;
   }
+  
+.navBottom.active {
+    display: flex;
+  }
 }
   
 .sliderWrapper {
