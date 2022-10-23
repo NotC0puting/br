@@ -72,6 +72,9 @@ nav {
 .dropdown-button {
     display: block;  
   }
+.navBottom {
+    display: none;
+  }
 }
   
 .sliderWrapper {
