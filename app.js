@@ -136,29 +136,6 @@ close.addEventListener("click", () => {
   payment.style.display = "none";
 });
 
-/*const button = document.getElementById("dropdown-button");
-const list = document.getElementById("menuItem-B");
-list.style.display = "none";
-button.addEventListener("click", (event) => {
- if(list.style.display == "none") {
-   list.style.display = "block"
- } else { 
-   list.style.display = "none"
- }
-})
-
-function myFunction(x) {
-  if (x.matches) { // If media query matches
-    button.style.display = "block";
-  } else {
-    button.style.display = "none";
- }
-}
-
-var x = window.matchMedia("(max-width: 703px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes */
-
 const toggleButton = document.getElementsByClassName('dropdown-button')[0]
 const navbarLinks = document.getElementsByClassName('navBottom')[0]
 
