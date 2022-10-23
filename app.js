@@ -147,14 +147,14 @@ button.addEventListener("click", (event) => {
  }
 })
 
-//function myFunction(x) {
-  //if (x.matches) { // If media query matches
-    //button.style.display = "block";
-  //} else {
-    //button.style.display = "none";
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    button.style.display = "block";
+  } else {
+    button.style.display = "none";
  }
 }
 
-//var x = window.matchMedia("(max-width: 704px)")
-//myFunction(x) // Call listener function at run time
-//x.addListener(myFunction) // Attach listener function on state changes
+var x = window.matchMedia("(max-width: 704px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
