@@ -142,3 +142,4 @@ const navbarLinks = document.getElementsByClassName('navBottom')[0]
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
+
