@@ -137,7 +137,7 @@ close.addEventListener("click", () => {
 });
 
 const button = document.getElementById("dropdown-button");
-const list = document.getElementById("menuItem");
+const list = document.getElementById("");
 list.style.display = "none";
 button.addEventListener("click", (event) => {
  if(list.style.display == "none") {
