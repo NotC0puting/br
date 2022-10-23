@@ -136,7 +136,7 @@ close.addEventListener("click", () => {
   payment.style.display = "none";
 });
 
-/*const button = document.getElementById("dropdown-button");
+const button = document.getElementById("dropdown-button");
 const list = document.getElementById("");
 list.style.display = "none";
 button.addEventListener("click", (event) => {
@@ -157,4 +157,4 @@ function myFunction(x) {
 
 var x = window.matchMedia("(max-width: 704px)")
 myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes*/
+x.addListener(myFunction) // Attach listener function on state changes
