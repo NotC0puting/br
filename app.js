@@ -151,7 +151,7 @@ function myFunction(x) {
   if (x.matches) { // If media query matches
     button.style.display = "block";
   } else {
-    button.style.display = "none"
+    button.style.display = "none";
   }
 }
 
