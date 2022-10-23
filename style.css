@@ -38,6 +38,10 @@ nav {
   display: none;
 }
 
+.dropdown-menu {
+ display: none; 
+}
+
 
 .searchInput::placeholder {
   color: lightgray;
@@ -90,15 +94,7 @@ nav {
 
 @media only screen and (max-width: 703px) {
 
-  .trip-menu {
-    display: block;
-  }
-  
-  .dropdown {
-  position: relative;
-  display: inline-block;
-  }
-  .dropdown:hover .dropdown-content {
+.dropdown-menu {
     display: block;
   }
 }
