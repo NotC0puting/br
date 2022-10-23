@@ -137,7 +137,7 @@ close.addEventListener("click", () => {
 });
 
 const button = document.getElementById("dropdown-button");
-const list = document.getElementById("");
+const list = document.getElementById("menuItem-B");
 list.style.display = "none";
 button.addEventListener("click", (event) => {
  if(list.style.display == "none") {
@@ -155,6 +155,6 @@ function myFunction(x) {
  }
 }
 
-var x = window.matchMedia("(max-width: 704px)")
+var x = window.matchMedia("(max-width: 703px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction) // Attach listener function on state changes
