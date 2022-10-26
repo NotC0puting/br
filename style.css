@@ -133,7 +133,7 @@ ul.no-bullets {
   font-size: 60px;
   font-weight: 900;
   text-align: center;
-  color: purple;
+  color: #f2aa4cff;
   z-index: 1;
 }
 
@@ -204,7 +204,7 @@ ul.no-bullets {
   background-color: white;
 }
 .sliderItem:nth-child(2) .sliderBg {
-  background-color: rebeccapurple;
+  background-color: #474973;
 }
 .sliderItem:nth-child(3) .sliderBg {
   background-color: teal;
@@ -220,7 +220,7 @@ ul.no-bullets {
   color: purple;
 }
 .sliderItem:nth-child(2) .sliderPrice {
-  color: white;
+  color: #f2aa4cff;
 }
 .sliderItem:nth-child(3) .sliderPrice {
   color: teal;
