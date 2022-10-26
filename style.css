@@ -126,6 +126,50 @@ ul.no-bullets {
   z-index: 1;
 }
 
+.sliderTitle2 {
+  position: absolute;
+  top: 1%;
+  right: %;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: purple;
+  z-index: 1;
+}
+
+.sliderTitle3 {
+  position: absolute;
+  top: 1%;
+  right: %;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: purple;
+  z-index: 1;
+}
+
+.sliderTitle4 {
+  position: absolute;
+  top: 1%;
+  right: %;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: purple;
+  z-index: 1;
+}
+
+.sliderTitle5 {
+  position: absolute;
+  top: 1%;
+  right: %;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: purple;
+  z-index: 1;
+}
+
 .sliderPrice {
   position: absolute;
   top: 40%;
