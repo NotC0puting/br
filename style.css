@@ -195,6 +195,57 @@ ul.no-bullets {
   cursor: pointer;
 }
 
+.buyButton2 {
+  position: absolute;
+  top: 48%;
+  right: 28%;
+  font-size: 30px;
+  font-weight: 900;
+  color: #f2aa4cff;
+  border: 1px solid gray;
+  background-color: #474973;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.buyButton3 {
+  position: absolute;
+  top: 48%;
+  right: 28%;
+  font-size: 30px;
+  font-weight: 900;
+  color: purple;
+  border: 1px solid gray;
+  background-color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.buyButton4 {
+  position: absolute;
+  top: 48%;
+  right: 28%;
+  font-size: 30px;
+  font-weight: 900;
+  color: purple;
+  border: 1px solid gray;
+  background-color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.buyButton5 {
+  position: absolute;
+  top: 48%;
+  right: 28%;
+  font-size: 30px;
+  font-weight: 900;
+  color: purple;
+  border: 1px solid gray;
+  background-color: white;
+  z-index: 1;
+  cursor: pointer;
+}
 .buyButton:hover {
   background-color: white;
   color: rebeccapurple;
