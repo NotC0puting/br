@@ -619,6 +619,27 @@ footer {
     top: 0;
   }
 
+  .buyButton2{
+    right: 0;
+    top: 0;
+  }
+
+  .buyButton3{
+    right: 0;
+    top: 0;
+  }
+
+  .buyButton4{
+    right: 0;
+    top: 0;
+  }
+
+  .buyButton5{
+    right: 0;
+    top: 0;
+  }
+
+
   .features{
     flex-direction: column;
   }
