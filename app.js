@@ -25,6 +25,7 @@ const products = [
       {
         code: "lightgray",
         img: "./img/pc-black.png",
+        Text: "rgb"
       },
       {
         code: "green",
