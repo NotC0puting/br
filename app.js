@@ -9,7 +9,7 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "./img/air.png",
+        img: "./img/pc.png",
       },
       {
         code: "darkblue",
@@ -24,7 +24,7 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./img/jordan.png",
+        img: "./img/pc-black.png",
       },
       {
         code: "green",
@@ -39,7 +39,7 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./img/blazer.png",
+        img: "./img/pc-pink.png",
       },
       {
         code: "green",
@@ -54,7 +54,7 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "./img/crater.png",
+        img: "./img/pc-white.png",
       },
       {
         code: "lightgray",
