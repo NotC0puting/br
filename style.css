@@ -227,9 +227,9 @@ ul.no-bullets {
   right: 28%;
   font-size: 30px;
   font-weight: 900;
-  color: purple;
+  color: white;
   border: 1px solid gray;
-  background-color: white;
+  background-color: cornflowerblue;
   z-index: 1;
   cursor: pointer;
 }
@@ -277,7 +277,7 @@ ul.no-bullets {
   color: pink;
 }
 .sliderItem:nth-child(4) .sliderPrice {
-  color: cornflowerblue;
+  color: white;
 }
 .sliderItem:nth-child(5) .sliderPrice {
   color: cornsilk;
