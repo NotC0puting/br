@@ -2,7 +2,7 @@ const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
 document.getElementById("fi").value
 document.getElementsByClassName("sliderprice").value
-if (fi == (style="background-color: black; color: white;")) {
+if (fi.style == "background-color: black; color: white;") {
   sliderprice == 630;
 }
 const products = [
