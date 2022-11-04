@@ -11,10 +11,7 @@ const products = [
         code: "black",
         img: "./img/pc.png",
       },
-      {
-        code: "darkblue",
-        img: "./img/air2.png",
-      },
+      
     ],
   },
   {
