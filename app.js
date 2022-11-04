@@ -29,7 +29,7 @@ const products = [
       },
       {
         code: "green",
-        img: "./img/jordan2.png",
+        img: "./img/pc.png",
       },
     ],
   },
@@ -44,7 +44,7 @@ const products = [
       },
       {
         code: "green",
-        img: "./img/blazer2.png",
+        img: "pc-black.png",
       },
     ],
   },
@@ -59,7 +59,7 @@ const products = [
       },
       {
         code: "lightgray",
-        img: "./img/crater2.png",
+        img: "./img/pc.png",
       },
     ],
   },
