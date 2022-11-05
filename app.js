@@ -1,10 +1,10 @@
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
-const wifiPrice = document.getElementsByClassName("productPrice");
+const wifiPrice = document.getElementsByClassName("sliderPrice");
 const wifibtn = document.getElementById("fi");
 
 function wifi() {
-  productPrice = "$630";
+  wifiPrice = "$630";
 }
 
 wifibtn.addEventListener('click', (e) => {
