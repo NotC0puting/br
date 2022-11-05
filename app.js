@@ -1,6 +1,6 @@
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
-var wifiPrice = document.querySelector("#sliderPrice :nth-child(1)");
+var wifiPrice = document.querySelector("#sliderItem :nth-child(1) .sliderPrice");
 const wifibtn = document.getElementById("fi");
 
 function wifi() {
