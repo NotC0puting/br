@@ -4,7 +4,7 @@ var wifiPrice = document.getElementsByClassName("sliderPrice");
 const wifibtn = document.getElementById("fi");
 
 function wifi() {
-  wifiPrice = "$630";
+  sliderItem:nth-child(1).sliderPrice == "$630";
 }
 
 wifibtn.addEventListener('click', (e) => {
