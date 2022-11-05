@@ -22,7 +22,7 @@ const products = [
   },
   {
     id: 2,
-    title: "smodeus Intel",
+    title: "Asmodeus Intel",
     price: 149,
     desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     colors: [
@@ -91,7 +91,7 @@ const currentProductTitle = document.querySelector(".productTitle");
 const currentProductPrice = document.querySelector(".productPrice");
 const currentProductColors = document.querySelectorAll(".color");
 const currentProductSizes = document.querySelectorAll(".size");
-const currentProductDesc = document.querySelectorAll(".Desc");
+const currentProductDesc = document.querySelectorAll(".productDesc");
 
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
