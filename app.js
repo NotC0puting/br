@@ -155,11 +155,8 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
 
-currentProductPrice.forEach((size, index) => {
-  wifibtn.addEventListener("click", () => {
-    currentProductPrice.textContent = "$" + choosenProduct.price+30
-  })
-
+wifibtn.addEventListener('click', (e) => {
+  currentProductPrice.textContent = "$" + choosenProduct.price+30;
 });
 
 
