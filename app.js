@@ -1,16 +1,7 @@
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
-var wifiPrice = document.querySelector("#sliderItem :nth-child(1) .sliderPrice");
 const wifibtn = document.getElementById("fi");
-
-function wifi() {
-   wifiPrice == "$630";
-}
-
-wifibtn.addEventListener('click', (e) => {
-  wifi()
-  wifiPrice == "$630";
-});
+const ethbtn = document.getElementById("et");
 
 const products = [
   {
@@ -156,8 +147,13 @@ toggleButton.addEventListener('click', () => {
 })
 
 wifibtn.addEventListener('click', (e) => {
-  currentProductPrice.textContent = "$" + choosenProduct.price+30;
+  choosenProduct.price = 630
+  currentProductPrice.textContent = "$"+choosenProduct.price;
 });
 
+ethbtn.addEventListener('click', (e) => {
+  choosenProduct.price = 600
+  currentProductPrice.textContent = "$"+choosenProduct.price;
+});
 
 
