@@ -147,13 +147,12 @@ toggleButton.addEventListener('click', () => {
 })
 
 wifibtn.addEventListener('click', (e) => {
-  choosenProduct.price = 630
-  currentProductPrice.textContent = "$"+choosenProduct.price;
+  choosenProduct.price1 =choosenProduct.price+30
+  currentProductPrice.textContent = "$"+choosenProduct.price1;
 });
 
 ethbtn.addEventListener('click', (e) => {
-  choosenProduct.price = 600
-  currentProductPrice.textContent = "$"+choosenProduct.price;
+currentProductPrice.textContent = "$"+choosenProduct.price;
 });
 
 
