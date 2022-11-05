@@ -41,6 +41,7 @@ const products = [
     id: 3,
     title: "Blazer",
     price: 109,
+    desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     colors: [
       {
         code: "lightgray",
@@ -56,6 +57,7 @@ const products = [
     id: 4,
     title: "Crater",
     price: 129,
+    desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     colors: [
       {
         code: "black",
@@ -71,6 +73,7 @@ const products = [
     id: 5,
     title: "Hippie",
     price: 99,
+    desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     colors: [
       {
         code: "gray",
@@ -89,9 +92,10 @@ let choosenProduct = products[0];
 const currentProductImg = document.querySelector(".productImg");
 const currentProductTitle = document.querySelector(".productTitle");
 const currentProductPrice = document.querySelector(".productPrice");
+const currentProductDesc = document.querySelectorAll(".productDesc");
 const currentProductColors = document.querySelectorAll(".color");
 const currentProductSizes = document.querySelectorAll(".size");
-const currentProductDesc = document.querySelectorAll(".productDesc");
+
 
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
@@ -104,7 +108,7 @@ menuItems.forEach((item, index) => {
     //change texts of currentProduct
     currentProductTitle.textContent = choosenProduct.title;
     currentProductPrice.textContent = "$" + choosenProduct.price;
-    currentProductDesc.textContent = choosenProduct.Desc;
+    currentProductDesc.textContent = choosenProduct.desc;
     currentProductImg.src = choosenProduct.colors[0].img;
 
     //assing new colors
