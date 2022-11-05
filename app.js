@@ -6,6 +6,10 @@ function wifi() {
   productPrice = 630;
 }
 
+wifibtn.addEventListener('click', (e) => {
+  wifi()
+})
+
 const products = [
   {
     id: 1,
