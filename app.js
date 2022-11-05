@@ -16,7 +16,7 @@ const products = [
   {
     id: 1,
     title: "Air Force",
-    price: 119,
+    price: 600,
     colors: [
       {
         code: "black",
@@ -154,6 +154,13 @@ const navbarLinks = document.getElementsByClassName('navBottom')[0]
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
+
+currentProductPrice.forEach((size, index) => {
+  wifibtn.addEventListener("click", () => {
+    currentProductPrice.textContent = "$" + choosenProduct.price+30
+  })
+
+});
 
 
 
