@@ -9,7 +9,7 @@ function wifi() {
 
 wifibtn.addEventListener('click', (e) => {
   wifi()
-})
+});
 
 const products = [
   {
