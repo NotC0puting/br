@@ -6,7 +6,7 @@ const ethbtn = document.getElementById("et");
 const products = [
   {
     id: 1,
-    title: "Air Force",
+    title: "Asmodeus AMD",
     price: 600,
     colors: [
       {
@@ -21,7 +21,7 @@ const products = [
   },
   {
     id: 2,
-    title: "Air Jordan",
+    title: "Asmodeus Intel",
     price: 149,
     colors: [
       {
