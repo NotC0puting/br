@@ -4,7 +4,7 @@ const wifiPrice = document.getElementsByClassName("productPrice");
 const wifibtn = document.getElementById("fi");
 
 function wifi() {
-  productPrice = 630;
+  productPrice = "$630";
 }
 
 wifibtn.addEventListener('click', (e) => {
