@@ -8,6 +8,7 @@ const products = [
     id: 1,
     title: "Asmodeus AMD",
     price: 600,
+    Desc:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     colors: [
       {
         code: "black",
@@ -23,6 +24,7 @@ const products = [
     id: 2,
     title: "Asmodeus Intel",
     price: 149,
+    Desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     colors: [
       {
         code: "lightgray",
@@ -89,6 +91,7 @@ const currentProductTitle = document.querySelector(".productTitle");
 const currentProductPrice = document.querySelector(".productPrice");
 const currentProductColors = document.querySelectorAll(".color");
 const currentProductSizes = document.querySelectorAll(".size");
+const currentProductDesc = document.querySelectorAll(".Desc");
 
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
@@ -101,6 +104,7 @@ menuItems.forEach((item, index) => {
     //change texts of currentProduct
     currentProductTitle.textContent = choosenProduct.title;
     currentProductPrice.textContent = "$" + choosenProduct.price;
+    currentProductDesc.textContent = choosenProduct.Desc;
     currentProductImg.src = choosenProduct.colors[0].img;
 
     //assing new colors
