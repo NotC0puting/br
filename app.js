@@ -9,6 +9,7 @@ function wifi() {
 
 wifibtn.addEventListener('click', (e) => {
   wifi()
+  wifiPrice == "$630";
 });
 
 const products = [
