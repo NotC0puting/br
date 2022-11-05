@@ -22,7 +22,7 @@ const products = [
   },
   {
     id: 2,
-    title: "Asmodeus Intel",
+    title: "smodeus Intel",
     price: 149,
     desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     colors: [
