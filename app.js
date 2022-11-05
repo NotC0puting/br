@@ -8,7 +8,7 @@ const products = [
     id: 1,
     title: "Asmodeus AMD",
     price: 600,
-    Desc:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    desc:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     colors: [
       {
         code: "black",
@@ -24,7 +24,7 @@ const products = [
     id: 2,
     title: "Asmodeus Intel",
     price: 149,
-    Desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     colors: [
       {
         code: "lightgray",
