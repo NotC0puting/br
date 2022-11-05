@@ -1,10 +1,11 @@
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
-document.getElementById("fi").value
-document.getElementsByClassName("sliderprice").value
-if (fi.style == "background-color: black; color: white;") {
-  sliderprice == 630;
+const wifibtn = Document.getElementsByClassName("productPrice")
+
+function wifi() {
+  productPrice = 630;
 }
+
 const products = [
   {
     id: 1,
