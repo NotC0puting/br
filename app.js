@@ -153,14 +153,16 @@ const navbarLinks = document.getElementsByClassName('navBottom')[0]
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
-
+var swatch = 0;
 wifibtn.addEventListener('click', (e) => {
   choosenProduct.price1 =choosenProduct.price+30
   currentProductPrice.textContent = "$"+choosenProduct.price1;
+  swatch = 1;
 });
 
 ethbtn.addEventListener('click', (e) => {
 currentProductPrice.textContent = "$"+choosenProduct.price;
+swatch = 2
 });
 
 function stripeBAMD() {
@@ -172,17 +174,13 @@ function stripeBAMDWIFI() {
 }
 
 productButton.addEventListener('click', () => {
-  if (currentProductPrice.textContent = "$"+choosenProduct.price) {
+  if (swatch == 2) {
     stripeBAMD();
   }
-
 })
 
-
-
-
 productButton.addEventListener('click', () => {
-  if (currentProductPrice.textContent = "$"+choosenProduct.price1) {
+  if (swatch == 1) {
     stripeBAMDWIFI();
   }
 })
