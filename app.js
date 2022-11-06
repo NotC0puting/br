@@ -164,7 +164,7 @@ currentProductPrice.textContent = "$"+choosenProduct.price;
 });
 
 function stripeBAMD() {
-  window.open('https://buy.stripe.com/test_cN24j30r74X42hWfYZ', "_blank";
+  winow.open('https://buy.stripe.com/test_cN24j30r74X42hWfYZ', "_blank")
 }
 
 function stripeBAMDWIFI() {
@@ -175,10 +175,8 @@ productButton.addEventListener('click', () => {
   if (currentProductPrice.textContent = "$"+choosenProduct.price1) {
     stripeBAMDWIFI()
   }
-})
-
-productButton.addEventListener('click', () => {
-  
-  stripeBAMD()
+  else if (currentProductPrice.textContent = "$"+choosenProduct.price1) {
+    stripeBAMD()
+  }
 })
 
