@@ -168,13 +168,17 @@ function stripeBAMD() {
 }
 
 function stripeBAMDWIFI() {
-  window.location.href='https://buy.stripe.com/test_8wM8zjfm10GO09O9AC';
+  window.open('https://buy.stripe.com/test_8wM8zjfm10GO09O9AC', "_blank")
 }
 
-if (currentProductPrice.textContent = "$"+choosenProduct.price1) {
-  document.getElementsByClassName("productButton").onclick = stripeBAMDWIFI(); {
-    location.href="index.html";
+productButton.addEventListener('click', () => {
+  if (currentProductPrice.textContent = "$"+choosenProduct.price1) {
+    stripeBAMDWIFI()
   }
-}
+})
 
+productButton.addEventListener('click', () => {
+  
+  stripeBAMD()
+})
 
