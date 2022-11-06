@@ -164,7 +164,7 @@ currentProductPrice.textContent = "$"+choosenProduct.price;
 });
 
 function stripeBAMD() {
-  window.open('https://buy.stripe.com/test_cN24j30r74X42hWfYZ', '_blank';
+  window.open('https://buy.stripe.com/test_cN24j30r74X42hWfYZ', "_blank";
 }
 
 function stripeBAMDWIFI() {
