@@ -172,7 +172,7 @@ function stripeBAMDWIFI() {
 }
 
 if (currentProductPrice.textContent = "$"+choosenProduct.price1) {
-  document.getElementsByClassName("productButton").onclick = stripeBAMDWIFI() {
+  document.getElementsByClassName("productButton").onclick = stripeBAMDWIFI(); {
     location.href="index.html";
   }
 }
