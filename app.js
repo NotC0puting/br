@@ -163,4 +163,18 @@ ethbtn.addEventListener('click', (e) => {
 currentProductPrice.textContent = "$"+choosenProduct.price;
 });
 
+function stripeBAMD() {
+  window.location.href='https://buy.stripe.com/test_cN24j30r74X42hWfYZ';
+}
+
+function stripeBAMDWIFI() {
+  window.location.href='https://buy.stripe.com/test_8wM8zjfm10GO09O9AC';
+}
+
+if (currentProductPrice.textContent = "$"+choosenProduct.price1) {
+  document.getElementsByClassName("productButton").onclick = stripeBAMDWIFI() {
+    location.href="index.html";
+  }
+}
+
 
