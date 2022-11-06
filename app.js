@@ -176,9 +176,14 @@ productButton.addEventListener('click', () => {
     stripeBAMD();
   }
 
+})
+
+
+
+
+productButton.addEventListener('click', () => {
   if (currentProductPrice.textContent = "$"+choosenProduct.price1) {
     stripeBAMDWIFI();
   }
-
 })
 
