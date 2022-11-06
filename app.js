@@ -162,12 +162,12 @@ wifibtn.addEventListener('click', (e) => {
 
 ethbtn.addEventListener('click', (e) => {
 if (title == "Asmodeus Intel") {
-  swatch = 3
+  swatch = 3;
   currentProductPrice.textContent = "$"+choosenProduct.price;
 }
 else {
 currentProductPrice.textContent = "$"+choosenProduct.price;
-swatch = 2
+swatch = 2;
 }
 });
 
