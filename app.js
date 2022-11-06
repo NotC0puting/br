@@ -175,7 +175,7 @@ productButton.addEventListener('click', () => {
   if (currentProductPrice.textContent = "$"+choosenProduct.price1) {
     stripeBAMDWIFI()
   }
-  else if (currentProductPrice.textContent = "$"+choosenProduct.price) {
+  if (currentProductPrice.textContent = "$"+choosenProduct.price) {
     stripeBAMD()
   }
 })
