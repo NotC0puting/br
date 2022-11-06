@@ -161,8 +161,14 @@ wifibtn.addEventListener('click', (e) => {
 });
 
 ethbtn.addEventListener('click', (e) => {
+if (id == 2) {
+  swatch = 3
+  currentProductPrice.textContent = "$"+choosenProduct.price;
+}
+else {
 currentProductPrice.textContent = "$"+choosenProduct.price;
 swatch = 2
+}
 });
 
 function stripeBAMD() {
@@ -171,6 +177,10 @@ function stripeBAMD() {
 
 function stripeBAMDWIFI() {
   window.open('https://buy.stripe.com/test_8wM8zjfm10GO09O9AC', "_blank")
+}
+
+function stripeBINT() {
+  window.open('https://buy.stripe.com/test_bIY16R6PvfBIcWA3cf', "_blank")
 }
 
 productButton.addEventListener('click', () => {
@@ -182,6 +192,12 @@ productButton.addEventListener('click', () => {
 productButton.addEventListener('click', () => {
   if (swatch == 1) {
     stripeBAMDWIFI();
+  }
+})
+
+productButton.addEventListener('click', () => {
+  if (swatch == 3) {
+    stripeBINT()
   }
 })
 
