@@ -166,35 +166,28 @@ var swatch = 0;
 wifibtn.addEventListener('click', (e) => {
   choosenProduct.price1 =choosenProduct.price+30
   currentProductPrice.textContent = "$"+choosenProduct.price1;
-  if (AMD == 1) {
-  swatch = 1;
-  }
-
-  else if (AMD == 0) {
-
+  if (currentProductPrice.textContent == (600 || 630)) {
+    if (AMD == 1) {
+      swatch = 1;
+    }
+  
+    else if (AMD == 0) {
+      swatch = 4;
+    }
   }
 });
-
-
 
 ethbtn.addEventListener('click', (e) => {
 if (currentProductPrice.textContent == (600  || 630) ) {
   if (AMD == 1) {
-    swatch = 2
+    swatch = 2;
+    currentProductPrice.textContent = "$"+choosenProduct.price;
   }
   else if (AMD == 0) {
     swatch = 3;
     currentProductPrice.textContent = "$"+choosenProduct.price;
   }
 
-}
-
-else if (currentProductPrice.textContent == 1000  || 1030) {
-  swatch = 4;
-}
-else {
-currentProductPrice.textContent = "$"+choosenProduct.price;
-swatch = 2;
 }
 });
 
@@ -238,6 +231,12 @@ productButton.addEventListener('click', () => {
 
 productButton.addEventListener('click', () => {
   if (swatch == 4) {
+    stripeBINTWIFI()
+  }
+})
+
+productButton.addEventListener('click', () => {
+  if (swatch == 5) {
     stripeMAMD()
   }
 })
