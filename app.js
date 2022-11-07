@@ -169,6 +169,7 @@ wifibtn.addEventListener('click', (e) => {
   if (currentProductPrice.textContent == (600 || 630)) {
     if (AMD == 1) {
       swatch = 1;
+
     }
   
     else if (AMD == 0) {
