@@ -153,6 +153,10 @@ const navbarLinks = document.getElementsByClassName('navBottom')[0]
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
+/* functions and stufff*/
+
+
+
 var swatch = 0;
 wifibtn.addEventListener('click', (e) => {
   choosenProduct.price1 =choosenProduct.price+30
