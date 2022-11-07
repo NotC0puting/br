@@ -1,3 +1,4 @@
+var AMD = 0
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
 const wifibtn = document.getElementById("fi");
@@ -6,6 +7,7 @@ const ethbtn = document.getElementById("et");
 const products = [
   {
     id: 1,
+    AMD = 1,
     title: "Asmodeus AMD",
     price: 600,
     desc:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -22,6 +24,7 @@ const products = [
   },
   {
     id: 2,
+    AMD = 2,
     title: "Asmodeus Intel",
     price: 600,
     desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
@@ -39,8 +42,9 @@ const products = [
   },
   {
     id: 3,
+    AMD = 1,
     title: "Blazer",
-    price: 109,
+    price: 1000,
     desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     colors: [
       {
@@ -55,8 +59,9 @@ const products = [
   },
   {
     id: 4,
+    AMD = 2,
     title: "Crater",
-    price: 129,
+    price: 1000,
     desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     colors: [
       {
@@ -161,13 +166,31 @@ var swatch = 0;
 wifibtn.addEventListener('click', (e) => {
   choosenProduct.price1 =choosenProduct.price+30
   currentProductPrice.textContent = "$"+choosenProduct.price1;
+  if (AMD == 1) {
   swatch = 1;
+  }
+
+  else if (AMD == 0) {
+
+  }
 });
 
+
+
 ethbtn.addEventListener('click', (e) => {
-if (currentProductPrice.textContent == 600  || 630) {
-  swatch = 3;
-  currentProductPrice.textContent = "$"+choosenProduct.price;
+if (currentProductPrice.textContent == (600  || 630) ) {
+  if (AMD == 1) {
+    swatch = 2
+  }
+  else if (AMD == 0) {
+    swatch = 3;
+    currentProductPrice.textContent = "$"+choosenProduct.price;
+  }
+
+}
+
+else if (currentProductPrice.textContent == 1000  || 1030) {
+  swatch = 4;
 }
 else {
 currentProductPrice.textContent = "$"+choosenProduct.price;
@@ -175,8 +198,12 @@ swatch = 2;
 }
 });
 
+function stripeMAMD() {
+  window.open('https://buy.stripe.com/test_bIYaHr2zfexE1dS3cg', "_blank")
+}
+
 function stripeBAMD() {
-  window.open('https://buy.stripe.com/test_cN24j30r74X42hWfYZ', "_blank")
+  window.open('https://buy.stripe.com/test_dR63eZfm12OW9Ko005', "_blank")
 }
 
 function stripeBAMDWIFI() {
@@ -185,6 +212,10 @@ function stripeBAMDWIFI() {
 
 function stripeBINT() {
   window.open('https://buy.stripe.com/test_bIY16R6PvfBIcWA3cf', "_blank")
+}
+
+function stripeBINTWIFI() {
+  window.open('https://buy.stripe.com/test_7sI5n78XD2OW5u84gm', "_blank")
 }
 
 productButton.addEventListener('click', () => {
@@ -202,6 +233,12 @@ productButton.addEventListener('click', () => {
 productButton.addEventListener('click', () => {
   if (swatch == 3) {
     stripeBINT()
+  }
+})
+
+productButton.addEventListener('click', () => {
+  if (swatch == 4) {
+    stripeMAMD()
   }
 })
 
