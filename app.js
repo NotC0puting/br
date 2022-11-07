@@ -7,7 +7,7 @@ const ethbtn = document.getElementById("et");
 const products = [
   {
     id: 1,
-    AMD = 1,
+    AMD: 1,
     title: "Asmodeus AMD",
     price: 600,
     desc:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -24,7 +24,7 @@ const products = [
   },
   {
     id: 2,
-    AMD = 2,
+    AMD: 2,
     title: "Asmodeus Intel",
     price: 600,
     desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
@@ -42,7 +42,7 @@ const products = [
   },
   {
     id: 3,
-    AMD = 1,
+    AMD: 1,
     title: "Blazer",
     price: 1000,
     desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
@@ -59,7 +59,7 @@ const products = [
   },
   {
     id: 4,
-    AMD = 2,
+    AMD: 2,
     title: "Crater",
     price: 1000,
     desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
