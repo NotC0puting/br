@@ -165,7 +165,7 @@ wifibtn.addEventListener('click', (e) => {
 });
 
 ethbtn.addEventListener('click', (e) => {
-if (title == "Asmodeus Intel") {
+if (currentProductPrice.textContent == 149  || 179) {
   swatch = 3;
   currentProductPrice.textContent = "$"+choosenProduct.price;
 }
@@ -188,14 +188,14 @@ function stripeBINT() {
 }
 
 productButton.addEventListener('click', () => {
-  if (swatch == 2) {
-    stripeBAMD();
+  if (swatch == 1) {
+    stripeBAMDWIFI();
   }
 })
 
 productButton.addEventListener('click', () => {
-  if (swatch == 1) {
-    stripeBAMDWIFI();
+  if (swatch == 2) {
+    stripeBAMD();
   }
 })
 
