@@ -23,7 +23,7 @@ const products = [
   {
     id: 2,
     title: "Asmodeus Intel",
-    price: 149,
+    price: 600,
     desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     colors: [
       {
@@ -165,7 +165,7 @@ wifibtn.addEventListener('click', (e) => {
 });
 
 ethbtn.addEventListener('click', (e) => {
-if (currentProductPrice.textContent == 149  || 179) {
+if (currentProductPrice.textContent == 600  || 630) {
   swatch = 3;
   currentProductPrice.textContent = "$"+choosenProduct.price;
 }
