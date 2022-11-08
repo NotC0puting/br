@@ -1,4 +1,4 @@
-var AMD;
+var AMD = 0;
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
 const wifibtn = document.getElementById("fi");
