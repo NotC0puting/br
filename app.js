@@ -178,7 +178,7 @@ wifibtn.addEventListener('click', (e) => {
 
     }
   
-    else if (currentProductAMD.textContent == 0) {
+    else if (currentProductAMD.textContent == 2) {
       swatch = 4;
     }
   }
@@ -190,7 +190,7 @@ if (currentProductPrice.textContent == ('$600')) {
     swatch = 2;
     currentProductPrice.textContent = "$"+choosenProduct.price;
   }
-  else if (currentProductAMD.textContent == 0) {
+  else if (currentProductAMD.textContent == 2) {
     swatch = 3;
     currentProductPrice.textContent = "$"+choosenProduct.price;
   }
@@ -225,7 +225,7 @@ productButton.addEventListener('click', () => {
 })
 
 productButton.addEventListener('click', () => {
-  if (swatch == 2) {
+  if (swatch == (2 || 0)) {
     stripeBAMD();
   }
 })
