@@ -390,6 +390,11 @@ label {
   cursor: pointer;
 }
 
+.productAMD {
+  visibility: hidden;
+
+}
+
 .close {
   width: 20px;
   height: 20px;
