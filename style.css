@@ -376,7 +376,7 @@ label {
   width: 30%;
 }
 
-.payButton {
+/*.payButton {
   position: absolute;
   height: 40px;
   bottom: -40;
@@ -389,7 +389,7 @@ label {
   border: none;
   cursor: pointer;
 }
-
+*/
 .productAMD {
   visibility: hidden;
 
