@@ -163,8 +163,6 @@ toggleButton.addEventListener('click', () => {
 })
 /* functions and stufff*/
 
-
-
 var swatch = 0;
 console.log("checkpoint 1")
 wifibtn.addEventListener('click', (e) => {
