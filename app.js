@@ -169,12 +169,12 @@ wifibtn.addEventListener('click', (e) => {
   choosenProduct.price1 =choosenProduct.price+30
   currentProductPrice.textContent = "$"+choosenProduct.price1;
   if (currentProductPrice.textContent == (600 || 630)) {
-    if (chosenProductAMD.textContent == 1) {
+    if (currentProductAMD.textContent == 1) {
       swatch = 1;
 
     }
   
-    else if (ChosenProductAMD.textContent == 0) {
+    else if (currentProductAMD.textContent == 0) {
       swatch = 4;
     }
   }
