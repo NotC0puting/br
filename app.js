@@ -191,9 +191,9 @@ ethbtn.addEventListener('click', (e) => {
       swatch = 2;
       currentProductPrice.textContent = "$"+choosenProduct.price;
     }
-  else if (currentProductAMD.textContent == 2) {
-    swatch = 3;
-    currentProductPrice.textContent = "$"+choosenProduct.price;
+    else if (currentProductAMD.textContent == 2) {
+      swatch = 3;
+      currentProductPrice.textContent = "$"+choosenProduct.price;
   }
 
 }
