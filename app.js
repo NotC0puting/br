@@ -176,7 +176,6 @@ wifibtn.addEventListener('click', (e) => {
       swatch = 1;
       console.log("checkpoint 2")
 
-
     }
   
     else if (currentProductAMD.textContent == 0) {
