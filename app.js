@@ -237,7 +237,7 @@ productButton.addEventListener('click', () => {
       stripeBAMD();
     }
     else if (currentProductTitle.textContent == 'Asmodeus Intel') {
-      stripeBINT();
+      stripeBINT(); 
     }
   }
 })
