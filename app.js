@@ -1,4 +1,4 @@
-var AMD = 0;
+
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
 const wifibtn = document.getElementById("fi");
@@ -112,10 +112,10 @@ menuItems.forEach((item, index) => {
     choosenProduct = products[index];
 
     //change texts of currentProduct
+    currentProductAMD.textContent = choosenProduct.AMD;
     currentProductTitle.textContent = choosenProduct.title;
     currentProductPrice.textContent = "$" + choosenProduct.price;
     currentProductDesc.textContent = choosenProduct.desc;
-    currentProductAMD.textContent = choosenProduct.AMD;
     currentProductImg.src = choosenProduct.colors[0].img;
 
     //assing new colors
