@@ -185,7 +185,7 @@ wifibtn.addEventListener('click', (e) => {
 });
 
 ethbtn.addEventListener('click', (e) => {
-  choosenProductPrice
+  currentProductPrice.textContent = "$"+choosenProduct.price;
   if (currentProductPrice.textContent == ('$600')) {
     if (currentProductAMD.textContent == 1) {
       swatch = 2;
