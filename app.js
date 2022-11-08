@@ -95,6 +95,7 @@ const products = [
 let choosenProduct = products[0];
 
 const currentProductImg = document.querySelector(".productImg");
+const currentProductAMD = document.querySelector(".productAMD");
 const currentProductTitle = document.querySelector(".productTitle");
 const currentProductPrice = document.querySelector(".productPrice");
 const currentProductDesc = document.querySelector(".productDesc");
@@ -114,6 +115,7 @@ menuItems.forEach((item, index) => {
     currentProductTitle.textContent = choosenProduct.title;
     currentProductPrice.textContent = "$" + choosenProduct.price;
     currentProductDesc.textContent = choosenProduct.desc;
+    currentProductAMD.textContent = choosenProduct.AMD;
     currentProductImg.src = choosenProduct.colors[0].img;
 
     //assing new colors
@@ -167,24 +169,24 @@ wifibtn.addEventListener('click', (e) => {
   choosenProduct.price1 =choosenProduct.price+30
   currentProductPrice.textContent = "$"+choosenProduct.price1;
   if (currentProductPrice.textContent == (600 || 630)) {
-    if (AMD == 1) {
+    if (chosenProductAMD.textContent == 1) {
       swatch = 1;
 
     }
   
-    else if (AMD == 0) {
+    else if (ChosenProductAMD.textContent == 0) {
       swatch = 4;
     }
   }
 });
 
 ethbtn.addEventListener('click', (e) => {
-if (currentProductPrice.textContent == (600  || 630) ) {
-  if (AMD == 1) {
+if (currentProductPrice.textContent == (600  || 630)) {
+  if (ChosenProductAMD.textContent == 1) {
     swatch = 2;
     currentProductPrice.textContent = "$"+choosenProduct.price;
   }
-  else if (AMD == 0) {
+  else if (ChosenProductAMD.textContent == 0) {
     swatch = 3;
     currentProductPrice.textContent = "$"+choosenProduct.price;
   }
