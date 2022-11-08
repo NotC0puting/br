@@ -113,7 +113,7 @@ menuItems.forEach((item, index) => {
     choosenProduct = products[index];
 
     //change texts of currentProduct
-    currentProductAMD.textContent = "sdfsdf";
+    currentProductAMD.textContent = choosenProduct.AMD;
     currentProductTitle.textContent = choosenProduct.title;
     currentProductPrice.textContent = "$" + choosenProduct.price;
     currentProductDesc.textContent = choosenProduct.desc;
