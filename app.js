@@ -233,7 +233,12 @@ productButton.addEventListener('click', () => {
 
 productButton.addEventListener('click', () => {
   if (swatch == 0) {
-    stripeBAMD();
+    if (currentProductTitle.textContent == 'Asmodeus AMD') {
+      stripeBAMD();
+    }
+    else if (currentProductTitle.textContent == 'Asmodeus Intel') {
+      stripeBINT();
+    }
   }
 })
 
