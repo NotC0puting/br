@@ -76,6 +76,7 @@ const products = [
   },
   {
     id: 5,
+    AMD: 2,
     title: "Hippie",
     price: 99,
     desc:  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
