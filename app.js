@@ -225,7 +225,13 @@ productButton.addEventListener('click', () => {
 })
 
 productButton.addEventListener('click', () => {
-  if (swatch == 2 || 0) {
+  if (swatch == 2) {
+    stripeBAMD();
+  }
+})
+
+productButton.addEventListener('click', () => {
+  if (swatch == 0) {
     stripeBAMD();
   }
 })
