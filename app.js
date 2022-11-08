@@ -170,8 +170,11 @@ wifibtn.addEventListener('click', (e) => {
   choosenProduct.price1 =choosenProduct.price+30
   currentProductPrice.textContent = "$"+choosenProduct.price1;
   if (currentProductPrice.textContent == (600 || 630)) {
+    console.log("checkpoint 1")
     if (currentProductAMD.textContent == 1) {
       swatch = 1;
+      console.log("checkpoint 2")
+
 
     }
   
