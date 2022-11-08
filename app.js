@@ -166,6 +166,7 @@ toggleButton.addEventListener('click', () => {
 
 
 var swatch = 0;
+console.log("checkpoint 1")
 wifibtn.addEventListener('click', (e) => {
   choosenProduct.price1 =choosenProduct.price+30
   currentProductPrice.textContent = "$"+choosenProduct.price1;
