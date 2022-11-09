@@ -143,6 +143,7 @@ currentProductSizes.forEach((size, index) => {
   });
 });
 
+/*
 const productButton = document.querySelector(".productButton");
 const payment = document.querySelector(".payment");
 const close = document.querySelector(".close");
@@ -161,6 +162,7 @@ const navbarLinks = document.getElementsByClassName('navBottom')[0]
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
+*/
 /* functions and stufff*/
 
 var swatch = 0;
