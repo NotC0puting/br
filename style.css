@@ -572,6 +572,7 @@ footer {
 
 .fIcons{
   display: flex;
+  margin-bottom: 20px;
 }
 
 .fIcon{
