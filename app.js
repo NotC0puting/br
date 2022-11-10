@@ -155,14 +155,14 @@ productButton.addEventListener("click", () => {
 close.addEventListener("click", () => {
   payment.style.display = "none";
 });
-
+*/
 const toggleButton = document.getElementsByClassName('dropdown-button')[0]
 const navbarLinks = document.getElementsByClassName('navBottom')[0]
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
-*/
+
 /* functions and stufff*/
 
 var swatch = 0;
